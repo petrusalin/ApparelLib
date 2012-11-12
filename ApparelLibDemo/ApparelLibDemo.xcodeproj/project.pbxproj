@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25B2BB5F16230104006AA82F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B2BB5E16230104006AA82F /* UIKit.framework */; };
+		25B2BB6116230104006AA82F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B2BB6016230104006AA82F /* Foundation.framework */; };
+		25B2BB6316230104006AA82F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B2BB6216230104006AA82F /* CoreGraphics.framework */; };
+		25B2BB6916230105006AA82F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B2BB6716230105006AA82F /* InfoPlist.strings */; };
+		25B2BB6B16230105006AA82F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2BB6A16230105006AA82F /* main.m */; };
+		25B2BB6F16230105006AA82F /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2BB6E16230105006AA82F /* APAppDelegate.m */; };
+		25B2BB7116230105006AA82F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B2BB7016230105006AA82F /* Default.png */; };
+		25B2BB7316230105006AA82F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B2BB7216230105006AA82F /* Default@2x.png */; };
+		25B2BB7516230105006AA82F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B2BB7416230105006AA82F /* Default-568h@2x.png */; };
+		25B2BB7816230105006AA82F /* APViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2BB7716230105006AA82F /* APViewController.m */; };
+		25B2BB7B16230105006AA82F /* APViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B2BB7916230105006AA82F /* APViewController.xib */; };
+		25B2BB9316230112006AA82F /* APDropDownTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2BB8316230112006AA82F /* APDropDownTableView.m */; };
+		25B2BB9416230112006AA82F /* APDropDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2BB8516230112006AA82F /* APDropDownView.m */; };
+		25B2BB9516230112006AA82F /* APNotice.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2BB8916230112006AA82F /* APNotice.m */; };
+		25B2BB9616230112006AA82F /* APNoticeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2BB8C16230112006AA82F /* APNoticeContentView.m */; };
+		25B2BB9716230112006AA82F /* APNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2BB8E16230112006AA82F /* APNoticeView.m */; };
+		25B2BB9816230112006AA82F /* APNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2BB9016230112006AA82F /* APNoticeViewController.m */; };
+		25B2BB9916230112006AA82F /* APNoticeViewOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2BB9216230112006AA82F /* APNoticeViewOverlayWindow.m */; };
+		25B2BB9D1623011C006AA82F /* APUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2BB9C1623011C006AA82F /* APUtils.m */; };
+		25B2BB9F16230122006AA82F /* APAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 25B2BB9E16230122006AA82F /* APAssets.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25B2BB5A16230104006AA82F /* ApparelLibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApparelLibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B2BB5E16230104006AA82F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25B2BB6016230104006AA82F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25B2BB6216230104006AA82F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25B2BB6616230105006AA82F /* ApparelLibDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApparelLibDemo-Info.plist"; sourceTree = "<group>"; };
+		25B2BB6816230105006AA82F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25B2BB6A16230105006AA82F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25B2BB6C16230105006AA82F /* ApparelLibDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApparelLibDemo-Prefix.pch"; sourceTree = "<group>"; };
+		25B2BB6D16230105006AA82F /* APAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAppDelegate.h; sourceTree = "<group>"; };
+		25B2BB6E16230105006AA82F /* APAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAppDelegate.m; sourceTree = "<group>"; };
+		25B2BB7016230105006AA82F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		25B2BB7216230105006AA82F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		25B2BB7416230105006AA82F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		25B2BB7616230105006AA82F /* APViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APViewController.h; sourceTree = "<group>"; };
+		25B2BB7716230105006AA82F /* APViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APViewController.m; sourceTree = "<group>"; };
+		25B2BB7A16230105006AA82F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/APViewController.xib; sourceTree = "<group>"; };
+		25B2BB8216230112006AA82F /* APDropDownTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDropDownTableView.h; sourceTree = "<group>"; };
+		25B2BB8316230112006AA82F /* APDropDownTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDropDownTableView.m; sourceTree = "<group>"; };
+		25B2BB8416230112006AA82F /* APDropDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDropDownView.h; sourceTree = "<group>"; };
+		25B2BB8516230112006AA82F /* APDropDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDropDownView.m; sourceTree = "<group>"; };
+		25B2BB8816230112006AA82F /* APNotice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNotice.h; sourceTree = "<group>"; };
+		25B2BB8916230112006AA82F /* APNotice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNotice.m; sourceTree = "<group>"; };
+		25B2BB8B16230112006AA82F /* APNoticeContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNoticeContentView.h; sourceTree = "<group>"; };
+		25B2BB8C16230112006AA82F /* APNoticeContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNoticeContentView.m; sourceTree = "<group>"; };
+		25B2BB8D16230112006AA82F /* APNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNoticeView.h; sourceTree = "<group>"; };
+		25B2BB8E16230112006AA82F /* APNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNoticeView.m; sourceTree = "<group>"; };
+		25B2BB8F16230112006AA82F /* APNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNoticeViewController.h; sourceTree = "<group>"; };
+		25B2BB9016230112006AA82F /* APNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNoticeViewController.m; sourceTree = "<group>"; };
+		25B2BB9116230112006AA82F /* APNoticeViewOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNoticeViewOverlayWindow.h; sourceTree = "<group>"; };
+		25B2BB9216230112006AA82F /* APNoticeViewOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNoticeViewOverlayWindow.m; sourceTree = "<group>"; };
+		25B2BB9B1623011C006AA82F /* APUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APUtils.h; sourceTree = "<group>"; };
+		25B2BB9C1623011C006AA82F /* APUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APUtils.m; sourceTree = "<group>"; };
+		25B2BB9E16230122006AA82F /* APAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = APAssets.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25B2BB5716230104006AA82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B2BB5F16230104006AA82F /* UIKit.framework in Frameworks */,
+				25B2BB6116230104006AA82F /* Foundation.framework in Frameworks */,
+				25B2BB6316230104006AA82F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B2BB4F16230104006AA82F = {
+			isa = PBXGroup;
+			children = (
+				25B2BB6416230104006AA82F /* ApparelLibDemo */,
+				25B2BB5D16230104006AA82F /* Frameworks */,
+				25B2BB5B16230104006AA82F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25B2BB5B16230104006AA82F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25B2BB5A16230104006AA82F /* ApparelLibDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25B2BB5D16230104006AA82F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25B2BB5E16230104006AA82F /* UIKit.framework */,
+				25B2BB6016230104006AA82F /* Foundation.framework */,
+				25B2BB6216230104006AA82F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25B2BB6416230104006AA82F /* ApparelLibDemo */ = {
+			isa = PBXGroup;
+			children = (
+				25B2BB9A1623011C006AA82F /* APUtils */,
+				25B2BB8116230112006AA82F /* APDropdownView */,
+				25B2BB8616230112006AA82F /* APNoticeView */,
+				25B2BB6D16230105006AA82F /* APAppDelegate.h */,
+				25B2BB6E16230105006AA82F /* APAppDelegate.m */,
+				25B2BB7616230105006AA82F /* APViewController.h */,
+				25B2BB7716230105006AA82F /* APViewController.m */,
+				25B2BB7916230105006AA82F /* APViewController.xib */,
+				25B2BB6516230105006AA82F /* Supporting Files */,
+			);
+			path = ApparelLibDemo;
+			sourceTree = "<group>";
+		};
+		25B2BB6516230105006AA82F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25B2BB9E16230122006AA82F /* APAssets.bundle */,
+				25B2BB6616230105006AA82F /* ApparelLibDemo-Info.plist */,
+				25B2BB6716230105006AA82F /* InfoPlist.strings */,
+				25B2BB6A16230105006AA82F /* main.m */,
+				25B2BB6C16230105006AA82F /* ApparelLibDemo-Prefix.pch */,
+				25B2BB7016230105006AA82F /* Default.png */,
+				25B2BB7216230105006AA82F /* Default@2x.png */,
+				25B2BB7416230105006AA82F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25B2BB8116230112006AA82F /* APDropdownView */ = {
+			isa = PBXGroup;
+			children = (
+				25B2BB8216230112006AA82F /* APDropDownTableView.h */,
+				25B2BB8316230112006AA82F /* APDropDownTableView.m */,
+				25B2BB8416230112006AA82F /* APDropDownView.h */,
+				25B2BB8516230112006AA82F /* APDropDownView.m */,
+			);
+			path = APDropdownView;
+			sourceTree = "<group>";
+		};
+		25B2BB8616230112006AA82F /* APNoticeView */ = {
+			isa = PBXGroup;
+			children = (
+				25B2BB8716230112006AA82F /* Model */,
+				25B2BB8A16230112006AA82F /* UI */,
+			);
+			path = APNoticeView;
+			sourceTree = "<group>";
+		};
+		25B2BB8716230112006AA82F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25B2BB8816230112006AA82F /* APNotice.h */,
+				25B2BB8916230112006AA82F /* APNotice.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25B2BB8A16230112006AA82F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				25B2BB8B16230112006AA82F /* APNoticeContentView.h */,
+				25B2BB8C16230112006AA82F /* APNoticeContentView.m */,
+				25B2BB8D16230112006AA82F /* APNoticeView.h */,
+				25B2BB8E16230112006AA82F /* APNoticeView.m */,
+				25B2BB8F16230112006AA82F /* APNoticeViewController.h */,
+				25B2BB9016230112006AA82F /* APNoticeViewController.m */,
+				25B2BB9116230112006AA82F /* APNoticeViewOverlayWindow.h */,
+				25B2BB9216230112006AA82F /* APNoticeViewOverlayWindow.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		25B2BB9A1623011C006AA82F /* APUtils */ = {
+			isa = PBXGroup;
+			children = (
+				25B2BB9B1623011C006AA82F /* APUtils.h */,
+				25B2BB9C1623011C006AA82F /* APUtils.m */,
+			);
+			path = APUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25B2BB5916230104006AA82F /* ApparelLibDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25B2BB7E16230105006AA82F /* Build configuration list for PBXNativeTarget "ApparelLibDemo" */;
+			buildPhases = (
+				25B2BB5616230104006AA82F /* Sources */,
+				25B2BB5716230104006AA82F /* Frameworks */,
+				25B2BB5816230104006AA82F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApparelLibDemo;
+			productName = ApparelLibDemo;
+			productReference = 25B2BB5A16230104006AA82F /* ApparelLibDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25B2BB5116230104006AA82F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alin Petrus";
+			};
+			buildConfigurationList = 25B2BB5416230104006AA82F /* Build configuration list for PBXProject "ApparelLibDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25B2BB4F16230104006AA82F;
+			productRefGroup = 25B2BB5B16230104006AA82F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25B2BB5916230104006AA82F /* ApparelLibDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25B2BB5816230104006AA82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B2BB6916230105006AA82F /* InfoPlist.strings in Resources */,
+				25B2BB7116230105006AA82F /* Default.png in Resources */,
+				25B2BB7316230105006AA82F /* Default@2x.png in Resources */,
+				25B2BB7516230105006AA82F /* Default-568h@2x.png in Resources */,
+				25B2BB7B16230105006AA82F /* APViewController.xib in Resources */,
+				25B2BB9F16230122006AA82F /* APAssets.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25B2BB5616230104006AA82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B2BB6B16230105006AA82F /* main.m in Sources */,
+				25B2BB6F16230105006AA82F /* APAppDelegate.m in Sources */,
+				25B2BB7816230105006AA82F /* APViewController.m in Sources */,
+				25B2BB9316230112006AA82F /* APDropDownTableView.m in Sources */,
+				25B2BB9416230112006AA82F /* APDropDownView.m in Sources */,
+				25B2BB9516230112006AA82F /* APNotice.m in Sources */,
+				25B2BB9616230112006AA82F /* APNoticeContentView.m in Sources */,
+				25B2BB9716230112006AA82F /* APNoticeView.m in Sources */,
+				25B2BB9816230112006AA82F /* APNoticeViewController.m in Sources */,
+				25B2BB9916230112006AA82F /* APNoticeViewOverlayWindow.m in Sources */,
+				25B2BB9D1623011C006AA82F /* APUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25B2BB6716230105006AA82F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B2BB6816230105006AA82F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25B2BB7916230105006AA82F /* APViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B2BB7A16230105006AA82F /* en */,
+			);
+			name = APViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25B2BB7C16230105006AA82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25B2BB7D16230105006AA82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25B2BB7F16230105006AA82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApparelLibDemo/ApparelLibDemo-Prefix.pch";
+				INFOPLIST_FILE = "ApparelLibDemo/ApparelLibDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25B2BB8016230105006AA82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApparelLibDemo/ApparelLibDemo-Prefix.pch";
+				INFOPLIST_FILE = "ApparelLibDemo/ApparelLibDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25B2BB5416230104006AA82F /* Build configuration list for PBXProject "ApparelLibDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B2BB7C16230105006AA82F /* Debug */,
+				25B2BB7D16230105006AA82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25B2BB7E16230105006AA82F /* Build configuration list for PBXNativeTarget "ApparelLibDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B2BB7F16230105006AA82F /* Debug */,
+				25B2BB8016230105006AA82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25B2BB5116230104006AA82F /* Project object */;
+}
