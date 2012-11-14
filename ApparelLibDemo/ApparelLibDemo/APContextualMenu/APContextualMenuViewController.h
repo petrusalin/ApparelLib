@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "APContextualView.h"
 
-@interface APContextualMenuViewController : UIViewController
+@interface APContextualMenuViewController : UIViewController <APContextualViewDataSource, APContextualViewDelegate>
+
+@property (nonatomic, strong) APContextualView *contextualMenu;
 
 @end

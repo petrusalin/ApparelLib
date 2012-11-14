@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25A4CBAA1651312C0055FC9F /* APContextualMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A4CBA91651312C0055FC9F /* APContextualMenuViewController.m */; };
+		25A4CBAD165139300055FC9F /* APContextualView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A4CBAC165139300055FC9F /* APContextualView.m */; };
+		25A4CBB516513FF90055FC9F /* APContextualButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A4CBB416513FF90055FC9F /* APContextualButton.m */; };
 		25B2BB5F16230104006AA82F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B2BB5E16230104006AA82F /* UIKit.framework */; };
 		25B2BB6116230104006AA82F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B2BB6016230104006AA82F /* Foundation.framework */; };
 		25B2BB6316230104006AA82F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B2BB6216230104006AA82F /* CoreGraphics.framework */; };
@@ -30,6 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25A4CBA81651312C0055FC9F /* APContextualMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APContextualMenuViewController.h; path = APContextualMenu/APContextualMenuViewController.h; sourceTree = "<group>"; };
+		25A4CBA91651312C0055FC9F /* APContextualMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APContextualMenuViewController.m; path = APContextualMenu/APContextualMenuViewController.m; sourceTree = "<group>"; };
+		25A4CBAB165139300055FC9F /* APContextualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APContextualView.h; path = APContextualMenu/APContextualView.h; sourceTree = "<group>"; };
+		25A4CBAC165139300055FC9F /* APContextualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APContextualView.m; path = APContextualMenu/APContextualView.m; sourceTree = "<group>"; };
+		25A4CBB316513FF90055FC9F /* APContextualButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APContextualButton.h; path = APContextualMenu/APContextualButton.h; sourceTree = "<group>"; };
+		25A4CBB416513FF90055FC9F /* APContextualButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APContextualButton.m; path = APContextualMenu/APContextualButton.m; sourceTree = "<group>"; };
 		25B2BB5A16230104006AA82F /* ApparelLibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApparelLibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B2BB5E16230104006AA82F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		25B2BB6016230104006AA82F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -79,6 +88,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25A4CBA6165130600055FC9F /* APContextualMenu */ = {
+			isa = PBXGroup;
+			children = (
+				25A4CBA81651312C0055FC9F /* APContextualMenuViewController.h */,
+				25A4CBA91651312C0055FC9F /* APContextualMenuViewController.m */,
+				25A4CBAB165139300055FC9F /* APContextualView.h */,
+				25A4CBAC165139300055FC9F /* APContextualView.m */,
+				25A4CBB316513FF90055FC9F /* APContextualButton.h */,
+				25A4CBB416513FF90055FC9F /* APContextualButton.m */,
+			);
+			name = APContextualMenu;
+			sourceTree = "<group>";
+		};
 		25B2BB4F16230104006AA82F = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +131,7 @@
 		25B2BB6416230104006AA82F /* ApparelLibDemo */ = {
 			isa = PBXGroup;
 			children = (
+				25A4CBA6165130600055FC9F /* APContextualMenu */,
 				25B2BB9A1623011C006AA82F /* APUtils */,
 				25B2BB8116230112006AA82F /* APDropdownView */,
 				25B2BB8616230112006AA82F /* APNoticeView */,
@@ -269,6 +292,9 @@
 				25B2BB9816230112006AA82F /* APNoticeViewController.m in Sources */,
 				25B2BB9916230112006AA82F /* APNoticeViewOverlayWindow.m in Sources */,
 				25B2BB9D1623011C006AA82F /* APUtils.m in Sources */,
+				25A4CBAA1651312C0055FC9F /* APContextualMenuViewController.m in Sources */,
+				25A4CBAD165139300055FC9F /* APContextualView.m in Sources */,
+				25A4CBB516513FF90055FC9F /* APContextualButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

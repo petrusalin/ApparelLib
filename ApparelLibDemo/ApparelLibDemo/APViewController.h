@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "APDropDownView.h"
+#import "APContextualMenuViewController.h"
 
-@interface APViewController : UIViewController <APDropDownViewDataSource, APDropDownViewDelegate>
+@interface APViewController : APContextualMenuViewController <APDropDownViewDataSource, APDropDownViewDelegate>
 
 - (IBAction)showNoticeViewDemo:(id)sender;
 @end
